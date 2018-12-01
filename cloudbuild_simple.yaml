@@ -1,0 +1,3 @@
+steps:
+- name: "gcr.io/cloud-builders/curl"
+  args: ['https://pets.doingdevops.com/pet','-s','--max-time','10']
