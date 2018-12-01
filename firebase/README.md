@@ -1,1 +1,1 @@
-These methods are deployed to Google Cloud Functions as APIs for use in demo configs.
+Firebase is used to establish a custom domain front end for GCF. The only really important bit here is firebase.json

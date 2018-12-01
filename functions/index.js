@@ -1,14 +1,14 @@
-const functions = require('firebase-functions');
-
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
-// exports.helloWorld = functions.https.onRequest((request, response) => {
-//  response.send("Hello from Firebase!");
-// });
-
-
 var dog = `
+          .o8                          
+         "888                          
+     .oooo888   .ooooo.   .oooooooo    
+    d88' '888  d88' '88b 888' '8b     
+    888   888  888   888 888   888     
+    888   888  888   888 '88bod8P'     
+    'Y8bod88P" 'Y8bod8P' '8oooooo.     
+                         d"     YD     
+                         "Y88888P'     
+                                       
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@***,@@@@@@@@@@@@
 @@@@@@@@@@@@/,,,...,,////**...,@@@@@@@@
@@ -32,6 +32,14 @@ var dog = `
 `;
 
 var cat = `
+                              .        
+                            .o8        
+       .ooooo.   .oooo.   .o888oo      
+      d88' '"Y8 'P  )88b    888        
+      888        .oP"888    888        
+      888   .o8 d8(  888    888 .      
+      'Y8bod8P' 'Y888""8o   "888"      
+                                       
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@*,*@@@@@@,*/@@@@@@
 @@@@@@@@@@@@@@@@@@@@@...,*##(*...@@@@@@
